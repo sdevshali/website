@@ -1,0 +1,19 @@
+{
+  "name": "voereir.se",
+  "version": "0.0.1",
+  "description": "VoerEir.se site.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashok Kumar (ashok@voereir.com)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "~1.15.0",
+    "emailjs": "^1.0.8",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp-connect": "^5.0.0"
+  }
+}

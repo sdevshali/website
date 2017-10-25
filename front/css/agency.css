@@ -1,0 +1,879 @@
+/*!
+ * Start Bootstrap - VoerEir v1.0.0 ()
+ * Copyright 2013-2017 VoerEir
+ * Licensed under BSD-2-Clause ()
+ */
+body {
+  font-famiy: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+  padding-left: 2%;
+  padding-right: 1%;
+  overflow-x: hidden;
+  background-image: url('../img/backgrounds/bg23.png');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.nav {
+  font-family: Arial;
+  font-size: 160%;
+  font-weight: bold;
+}
+.text-muted {
+  color: white;
+}
+.text-primary {
+  color: #1191d0;
+}
+p {
+  font-family: Arial;
+  font-size: 120%;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #5b5b5b;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+.btn-primary {
+  color: white;
+  background-color: #1191d0;
+  border-color: #1191d0;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #0d70a1;
+  border-color: #0c6a97;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #1191d0;
+  border-color: #1191d0;
+}
+.btn-primary .badge {
+  color: #1191d0;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #1191d0;
+  border-color: #1191d0;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #0d70a1;
+  border-color: #0c6a97;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #1191d0;
+  border-color: #1191d0;
+}
+.btn-xl .badge {
+  color: #1191d0;
+  background-color: white;
+}
+.navbar-custom {
+  margin-bottom: 1%;
+  border-color: transparent;
+  margin-left: -2%;
+}
+.navbar-custom .navbar-brand {
+  color: #1191d0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #0d70a1;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #1191d0;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: red;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: red;
+}
+.navbar-nav > .active > a {
+  color: #d7693b;
+}
+header {
+  height: 31em;
+  position: relative;
+  margin: auto;
+  max-width: 1440px;
+  background-image: url('../img/backgrounds/Stockhol.png');
+  background-position: center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+}
+.intro-heading {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 160%;
+  color: #2a406a;
+  padding-top: 1%;
+}
+.header-content {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 160%;
+}
+.logo {
+  padding-top: 1%;
+  text-align: left;
+}
+.fixed-header-nav {
+  padding-top: 13%;
+}
+h4 {
+  text-transform: none !important;
+}
+section h4.section-heading {
+  font-size: 160%;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+  color: white;
+}
+section#contact {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #1191d0;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+section#news {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+section#news .form-group {
+  margin-bottom: 25px;
+}
+section#news .form-group input,
+section#news .form-group textarea {
+  padding: 20px;
+}
+section#news .form-group input.form-control {
+  height: auto;
+}
+section#news .form-group textarea.form-control {
+  height: 236px;
+}
+section#news .form-control:focus {
+  border-color: #1191d0;
+  box-shadow: none;
+}
+section#news ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#news :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#news ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#news :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#news .text-danger {
+  color: #e74c3c;
+}
+section#services {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#services .form-group {
+  margin-bottom: 25px;
+}
+section#services .form-group input,
+section#services .form-group textarea {
+  padding: 20px;
+}
+section#services .form-group input.form-control {
+  height: auto;
+}
+section#services .form-group textarea.form-control {
+  height: 236px;
+}
+section#services .form-control:focus {
+  border-color: #1191d0;
+  box-shadow: none;
+}
+section#services ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#services :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#services ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#services :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#services .text-danger {
+  color: #e74c3c;
+}
+section#about {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#about .form-group {
+  margin-bottom: 25px;
+}
+section#about .form-group input,
+section#about .form-group textarea {
+  padding: 20px;
+}
+section#about .form-group input.form-control {
+  height: auto;
+}
+section#about .form-group textarea.form-control {
+  height: 236px;
+}
+section#about .form-control:focus {
+  border-color: #1191d0;
+  box-shadow: none;
+}
+section#about ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#about :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#about ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#about :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#about .text-danger {
+  color: #e74c3c;
+}
+.home {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 20%;
+}
+.home .form-group {
+  margin-bottom: 25px;
+}
+.home .form-group input,
+.home .form-group textarea {
+  padding: 20px;
+}
+.home .form-group input.form-control {
+  height: auto;
+}
+.home .form-group textarea.form-control {
+  height: 236px;
+}
+.home .form-control:focus {
+  border-color: #1191d0;
+  box-shadow: none;
+}
+.home ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.home :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.home ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.home :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.home .text-danger {
+  color: #e74c3c;
+}
+section#careers {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#careers .form-group {
+  margin-bottom: 25px;
+}
+section#careers .form-group input,
+section#careers .form-group textarea {
+  padding: 20px;
+}
+section#careers .form-group input.form-control {
+  height: auto;
+}
+section#careers .form-group textarea.form-control {
+  height: 236px;
+}
+section#careers .form-control:focus {
+  border-color: #1191d0;
+  box-shadow: none;
+}
+section#careers ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#careers :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#careers ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#careers :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#careers .text-danger {
+  color: #e74c3c;
+}
+footer {
+  color: #0d70a1;
+  position: relative;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #1191d0;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #1191d0;
+}
+::selection {
+  text-shadow: none;
+  background: #1191d0;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #1191d0;
+  letter-spacing: 0.3px;
+}
+html {
+  height: 100%;
+}
+hr.style3 {
+  border-top: 1px solid #111111;
+}
+@media (min-width: 360px) {
+  .custom-button {
+    width: 12em;
+    background-color: #b5c8e6;
+    color: black;
+  }
+  header {
+    height: 21em;
+  }
+}
+@media (min-width: 768px) {
+  .custom-button {
+    width: 15em;
+  }
+  header {
+    height: 29em;
+  }
+  .navbar-custom {
+    background-color: transparent;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+  .menu-padding {
+    padding-right: 0.48em !important;
+  }
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+  section {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  .menu-padding {
+    padding-right: 2.13em !important;
+  }
+}
+@media (min-width: 1024px) {
+  .menu-padding {
+    padding-right: 2.36em !important;
+  }
+  header {
+    height: 26em;
+  }
+}
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  .custom-button {
+    width: 15em;
+  }
+  header {
+    height: 20em;
+  }
+  .menu-padding {
+    padding-right: 3.66em !important;
+  }
+}
+@media (min-width: 1260px) {
+  .menu-padding {
+    padding-right: 4em !important;
+  }
+  header {
+    height: 22em;
+  }
+}
+@media (min-width: 1280px) {
+  .menu-padding {
+    padding-right: 4.25em !important;
+  }
+}
+@media (min-width: 1360px) {
+  .menu-padding {
+    padding-right: 4.7em!important;
+  }
+  header {
+    height: 23em;
+  }
+}
+@media (min-width: 1440px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+  .custom-button {
+    width: 17em;
+  }
+  header {
+    height: 26em;
+  }
+  .menu-padding {
+    padding-right: 5.42em !important;
+  }
+}
+@media (min-width: 1490px) {
+  .menu-padding {
+    padding-right: 5.75em !important;
+  }
+}
+.border {
+  border-bottom: 1px solid black;
+  padding-bottom: 1%;
+}
+.fixed-width {
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+}
+.in-line {
+  margin-left: -2%;
+}
+.head-padding {
+  padding-top: 2%;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: black;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: black;
+}

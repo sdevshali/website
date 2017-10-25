@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    <title>VoerEir AB</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="../css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+    <!-- Header -->
+        <header>
+             <div class="row">
+                <div class=" col-sm-5 col-lg-3 col-md-4 col-xs-6 logo">
+                    <a href="../index.html">
+                        <img src="../img/logos/VoerEir_logo2.png" height="20%" width="50%"/>
+                    </a>
+                </div>
+                <div class="col-sm-7 col-lg-9 col-md-8 col-xs-12 intro-heading">
+                    We make transformation to Cloud Infrastructure successful!
+                </div>
+             </div>
+        </header>
+        <div class="fixed-width navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <div id="navbar-collapse-1" class = "fixed-width navbar-collapse collapse" style="border-bottom: 1px solid black;">
+            <ul class="nav navbar-nav navbar-center navbar-custom">
+                    <li>
+                        <a class="page-scroll menu-padding" href="../index.html">Home</a>
+                    </li>
+                    <li >
+                        <a class="page-scroll menu-padding" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-padding" href="product.html">Product</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-padding" href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-padding" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll menu-padding" href="careers.html">Careers</a>
+                    </li>
+                    <li class="active">
+                        <a class="page-scroll" href="login.html">Login</a>
+                    </li>
+                </ul>
+        </div>
+
+    <!-- About Section -->
+    <section id="login">
+        <div class = "fixed-width container-fluid">
+            <div class="row" style="border-bottom: 1px solid black;">
+                <div class="col-lg-5 col-md-5 col-sm-3 col-xs-3"></div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><br>
+                     <p style="color:red;" id="loginmsg"></p>
+                    <input type="text" class="custom-button center" placeholder="User"><br><br>
+                    <input type="password" class="custom-button center" placeholder="Password"><br><br>
+                    <a type="button" class="btn btn-primary custom-button" onclick="login()">Login</a><br><br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class = "row fixed-width">
+            <div class="col-xs-6 col-sm-8 col-md-8 col-lg-10"></div>
+            <div class="col-xs-7 col-sm-5 col-md-5 col-lg-3 pull-right " style="text-align:right; padding-right:0%">
+                <a href="https://twitter.com/" target="_blank"> <img src="../img/logos/twitter.png" height="8%" width="8%"></a>&nbsp &nbsp
+                <a href="https://facebook.com/" target="_blank"> <img src="../img/logos/facebook.png" height="8%" width="8%"></a>&nbsp &nbsp
+                <a href="https://www.linkedin.com/company/10368781/" target="_blank"> <img src="../img/logos/linkdin.png" height="8%" width="8%"></a>&nbsp &nbsp
+                <a href="https://plus.google.com/" target="_blank"> <img src="../img/logos/google.png" height="8%" width="8%"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function login() {
+            document.getElementById("loginmsg").innerHTML = "Authentication failed";
+        }
+</script>
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!--<script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>-->
+   <!--  <script src="js/scroll.js"></script>-->
+
+    <!-- Theme JavaScript -->
+    <script src="../js/agency.min.js"></script>
+
+
+
+</body>
+
+</html>
